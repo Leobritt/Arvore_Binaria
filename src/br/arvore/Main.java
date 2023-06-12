@@ -15,11 +15,14 @@ public class Main {
 		System.out.println("\nEm ordem");
 		arvore.emOrdem(arvore.getRaiz());
 		
+		arvore.remover(20);
+		System.out.println("\nEm ordem");
+		arvore.emOrdem(arvore.getRaiz());
 		
-		System.out.println("\nPré ordem");
-		arvore.preOrdem(arvore.getRaiz());
+		//System.out.println("\nPré ordem");
+		//arvore.preOrdem(arvore.getRaiz());
 		
-		System.out.println("\nPos ordem");
-		arvore.posOrdem(arvore.getRaiz());
+		//System.out.println("\nPos ordem");
+		//arvore.posOrdem(arvore.getRaiz());
 	}
 }
